@@ -105,7 +105,7 @@ body {
 }
 
 .image-top {
-    max-width: 100%;
+    max-width: 101%;
     height: 200px;
     object-fit: cover;
     clip-path: polygon(0 0, 100% 0, 100% 67%, 0% 100%);
@@ -155,6 +155,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #eee;
     box-shadow: 5px 5px 20px rgba(0,0,0,.4);
+}
+
+.card button:hover {
+    background-color: #0280a3;
 }
 
 .social-icons {
